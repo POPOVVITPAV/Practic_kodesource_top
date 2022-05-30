@@ -64,6 +64,12 @@ public class Main {
         Высота ввода в дюймах: 72
         Ожидаемый результат :
         Индекс массы тела 61,30159143458721*/
+        System.out.print("\nВес ввода в фунтах: ");
+        double weight = sc.nextDouble();
+        System.out.println("Высота ввода в дюймах:");
+        double inches = sc.nextDouble();
+        double bmi = weight * 0.45359237 / (inches * 0.0254 * inches * 0.0254);
+        System.out.println(bmi);
 
        /* 8. Напишите программу на Java, которая читает число и отображает квадрат, куб и четвертую степень. Перейти к редактору
 
